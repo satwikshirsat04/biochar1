@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 120 55% 23%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 25 50% 28%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark mode colors - not used in this project */
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    /* ...keep existing code (other dark mode variables) */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-poppins;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-biocharGreen text-white font-semibold rounded-md 
+           hover:bg-biocharGreen-light transition-colors duration-300
+           focus:ring-2 focus:ring-biocharGreen focus:ring-opacity-50 focus:outline-none
+           shadow-md hover:shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 bg-white text-biocharBrown font-semibold rounded-md border-2 border-biocharBrown
+           hover:bg-biocharCream transition-colors duration-300
+           focus:ring-2 focus:ring-biocharBrown focus:ring-opacity-50 focus:outline-none;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-6 text-biocharGreen;
+  }
+  
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 py-16 sm:py-24;
+  }
+}
+/* Add these at the bottom of your index.css */
+@keyframes waveFloat {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50% { transform: translate3d(-5%, 10px, 0); }
+}
+
+.wave-animate {
+  animation: waveFloat 15s ease-in-out infinite;
+  will-change: transform;
+}
+
+/* Ensure proper stacking */
+.fixed {
+  position: fixed;
+}
+.-z-50 {
+  z-index: -50;
+}
+.pointer-events-none {
+  pointer-events: none;
+}
