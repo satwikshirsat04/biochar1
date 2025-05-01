@@ -31,7 +31,7 @@ const FarmerPhotoSlider: React.FC = () => {
 
   return (
     
-    <section className="py-7 bg-green-200 overflow-hidden">
+    <section className="py-7 bg-biocharSoftGreen overflow-hidden">
       {/* <h2 className="text-white text-center text-2xl font-bold mb-4 animate-fade-up duration-700 delay-100">Happy Farmers</h2> */}
       <div className="relative">
         <div className="flex animate-scroll">
