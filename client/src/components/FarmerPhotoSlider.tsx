@@ -26,6 +26,10 @@ const FarmerPhotoSlider: React.FC = () => {
     {
       id: 6,
       image: "/images/farmers/f3.jpg"
+    },
+    {
+      id: 7,
+      image: "/images/farmers/f5.avif"
     }
   ];
 
