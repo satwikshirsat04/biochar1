@@ -96,7 +96,7 @@ const AboutUs: React.FC = () => {
               </p>
             </div>
             <img
-              src="/images/about/f2.jpg"
+              src="/images/about/c3.jpg"
               alt="Khad Kranti team working with farmers"
               className="rounded-lg shadow-md h-64 w-full object-cover"
               loading="lazy"
