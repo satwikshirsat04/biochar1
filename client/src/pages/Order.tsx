@@ -154,7 +154,7 @@ const Order = () => {
                                     </div>
 
                                     {/* Quantity Dropdown - Fixed */}
-                                    <div className="mb-">
+                                    <div className="mb-6">
                                         <label htmlFor="quantity" className="block text-sm font-medium text-gray-700 mb-1">
                                             Quantity *
                                         </label>
