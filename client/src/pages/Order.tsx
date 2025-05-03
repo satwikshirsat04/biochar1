@@ -5,6 +5,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Check, Package } from 'lucide-react';
 import { getProductById } from '@/data/product';
+import Footer from '@/components/Footer';
+import WhatsAppButton from '@/components/WhatsAppButton';
 
 const Order = () => {
     // const product = {
@@ -199,6 +201,8 @@ const Order = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
+            <WhatsAppButton />
         </div>
     )
 }
