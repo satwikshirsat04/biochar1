@@ -11,6 +11,28 @@ const translations = {
     title: "How to Use Biochar",
     intro: "Learn how to effectively use biochar to transform your farming practices and improve your soil health",
     tab1: {
+      title: "How to Use Biochar",
+      description: "Follow these simple steps to properly apply biochar to your soil for maximum benefits",
+      steps: [
+        {
+          title: "Step 1: Prepare Your Biochar",
+          description: "Before application, biochar should be 'charged' with nutrients. Mix your Khad Kranti biochar with compost or manure in a 1:1 ratio and moisten slightly. Let this mixture sit for 24-48 hours to allow the biochar to absorb nutrients.",
+          image: "/images/usecase/step1.webp",
+          proTip: "Pro Tip: Using unconditioned biochar directly can temporarily reduce nitrogen availability to plants as it absorbs nitrogen from the soil."
+        },
+        {
+          title: "Step 2: Apply to Your Soil",
+          description: "Spread your charged biochar mixture evenly over your planting area at a rate of 1-2 kg per 10 square meters. For existing plants, apply around the drip line, avoiding direct contact with stems or trunks.",
+          image: "/images/usecase/step2.webp"
+        },
+        {
+          title: "Step 3: Incorporate and Water",
+          description: "Work the biochar mixture into the top 10-15 cm of soil using a rake or hoe. After incorporation, water thoroughly to help settle the biochar into the soil structure. For potted plants, mix 10-20% biochar into your potting soil.",
+          image: "/images/usecase/step3.webp"
+        }
+      ]
+    },
+    tab2: {
       title: "5 Signs Your Soil Needs Biochar",
       description: "Discover how biochar can improve your soil health and plant growth through these five clear indicators.",
       signs: [
@@ -36,17 +58,6 @@ const translations = {
         }
       ]
     },
-    tab2: {
-      title: "Benefits of Using Biochar",
-      description: "Learn about the numerous advantages of using biochar, including improved soil fertility and carbon sequestration."
-    },
-    step1: "Step 1: Prepare Your Biochar",
-    step1Desc: "Before application, biochar should be 'charged' with nutrients. Mix your Khad Kranti biochar with compost or manure in a 1:1 ratio and moisten slightly. Let this mixture sit for 24-48 hours to allow the biochar to absorb nutrients.",
-    proTip: "Pro Tip: Using unconditioned biochar directly can temporarily reduce nitrogen availability to plants as it absorbs nitrogen from the soil.",
-    step2: "Step 2: Apply to Your Soil",
-    step2Desc: "Spread your charged biochar mixture evenly over your planting area at a rate of 1-2 kg per 10 square meters. For existing plants, apply around the drip line, avoiding direct contact with stems or trunks.",
-    step3: "Step 3: Incorporate and Water",
-    step3Desc: "Work the biochar mixture into the top 10-15 cm of soil using a rake or hoe. After incorporation, water thoroughly to help settle the biochar into the soil structure. For potted plants, mix 10-20% biochar into your potting soil.",
     expectedResultsTitle: "Expected Results",
     expectedResultsDesc: "You should notice improved water retention within weeks. Nutrient efficiency will improve over the first growing season, while full soil structure benefits develop over multiple seasons. Biochar is a long-term soil investment that continues working for years.",
     consultationTitle: "Need personalized advice?",
@@ -61,6 +72,28 @@ const translations = {
     title: "बायोचार का उपयोग कैसे करें",
     intro: "जानें कैसे बायोचार का प्रभावी उपयोग कर अपनी खेती और मिट्टी की सेहत सुधारें",
     tab1: {
+      title: "बायोचार का उपयोग कैसे करें",
+      description: "अधिकतम लाभ के लिए बायोचार को अपनी मिट्टी में सही तरीके से लगाने के लिए इन सरल चरणों का पालन करें",
+      steps: [
+        {
+          title: "चरण 1: अपने बायोचार को तैयार करें",
+          description: "प्रयोग से पहले, बायोचार को पोषक तत्वों से 'चार्ज' करना चाहिए। अपने खाद क्रांति बायोचार को खाद या गोबर के साथ 1:1 अनुपात में मिलाएं और थोड़ा नम करें। इस मिश्रण को 24-48 घंटे के लिए छोड़ दें ताकि बायोचार पोषक तत्वों को अवशोषित कर सके।",
+          image: "/images/usecase/step1.webp",
+          proTip: "प्रो टिप: बिना चार्ज किए बायोचार का सीधे उपयोग करने से यह मिट्टी से नाइट्रोजन अवशोषित कर सकता है, जिससे पौधों के लिए नाइट्रोजन की उपलब्धता अस्थायी रूप से कम हो सकती है।"
+        },
+        {
+          title: "चरण 2: मिट्टी पर लगाएं",
+          description: "अपने चार्ज किए गए बायोचार मिश्रण को अपने रोपण क्षेत्र में समान रूप से फैलाएं, दर 1-2 किलोग्राम प्रति 10 वर्ग मीटर के हिसाब से। मौजूदा पौधों के लिए, इसे ड्रिप लाइन के चारों ओर लगाएं, तनों या तनों के सीधे संपर्क से बचें।",
+          image: "/images/usecase/step2.webp",
+        },
+        {
+          title: "चरण 3: मिलाएं और पानी दें",
+          description: "बायोचार मिश्रण को मिट्टी की ऊपरी 10-15 सेमी में रेक या कुदाल का उपयोग करके मिलाएं। मिश्रण के बाद, बायोचार को मिट्टी की संरचना में बसाने में मदद के लिए अच्छी तरह से पानी दें। गमलों के पौधों के लिए, अपनी पॉटिंग मिट्टी में 10-20% बायोचार मिलाएं।",
+          image: "/images/usecase/step3.webp"
+        }
+      ]
+    },
+    tab2: {
       title: "5 संकेत कि आपकी मिट्टी को बायोचार की आवश्यकता है",
       description: "इन पांच स्पष्ट संकेतों के माध्यम से जानें कि बायोचार आपकी मिट्टी की सेहत और पौधों की वृद्धि को कैसे सुधार सकता है।",
       signs: [
@@ -86,17 +119,6 @@ const translations = {
         }
       ]
     },
-    tab2: {
-      title: "बायोचार के उपयोग के लाभ",
-      description: "बायोचार के कई लाभों के बारे में जानें, जिनमें बेहतर मिट्टी उर्वरता और कार्बन पृथक्करण शामिल हैं।"
-    },
-    step1: "चरण 1: अपने बायोचार को तैयार करें",
-    step1Desc: "प्रयोग से पहले, बायोचार को पोषक तत्वों से 'चार्ज' करना चाहिए। अपने खाद क्रांति बायोचार को खाद या गोबर के साथ 1:1 अनुपात में मिलाएं और थोड़ा नम करें। इस मिश्रण को 24-48 घंटे के लिए छोड़ दें ताकि बायोचार पोषक तत्वों को अवशोषित कर सके।",
-    proTip: "प्रो टिप: बिना चार्ज किए बायोचार का सीधे उपयोग करने से यह मिट्टी से नाइट्रोजन अवशोषित कर सकता है, जिससे पौधों के लिए नाइट्रोजन की उपलब्धता अस्थायी रूप से कम हो सकती है।",
-    step2: "चरण 2: मिट्टी पर लगाएं",
-    step2Desc: "अपने चार्ज किए गए बायोचार मिश्रण को अपने रोपण क्षेत्र में समान रूप से फैलाएं, दर 1-2 किलोग्राम प्रति 10 वर्ग मीटर के हिसाब से। मौजूदा पौधों के लिए, इसे ड्रिप लाइन के चारों ओर लगाएं, तनों या तनों के सीधे संपर्क से बचें।",
-    step3: "चरण 3: मिलाएं और पानी दें",
-    step3Desc: "बायोचार मिश्रण को मिट्टी की ऊपरी 10-15 सेमी में रेक या कुदाल का उपयोग करके मिलाएं। मिश्रण के बाद, बायोचार को मिट्टी की संरचना में बसाने में मदद के लिए अच्छी तरह से पानी दें। गमलों के पौधों के लिए, अपनी पॉटिंग मिट्टी में 10-20% बायोचार मिलाएं।",
     expectedResultsTitle: "अपेक्षित परिणाम",
     expectedResultsDesc: "आप कुछ ही हफ्तों में बेहतर जल धारण क्षमता देखेंगे। पोषक तत्वांची कार्यक्षमता पहिल्या वाढीच्या हंगामात सुधारेल, तर पूर्ण माती संरचनेचे फायदे अनेक हंगामांमध्ये विकसित होतील. बायोचार हा दीर्घकालीन माती गुंतवणूक आहे जो वर्षानुवर्षे कार्यरत राहतो.",
     consultationTitle: "व्यक्तिगत सलाह की आवश्यकता है?",
@@ -111,6 +133,28 @@ const translations = {
     title: "बायोचार कसा वापरावा",
     intro: "बायोचारचा प्रभावी वापर करून आपली शेती आणि मातीचे आरोग्य कसे सुधारावे ते शिका",
     tab1: {
+      title: "बायोचार कसा वापरावा",
+      description: "जास्तीत जास्त फायद्यासाठी बायोचार योग्य पद्धतीने मातीत कसा लावावा यासाठी या सोप्या चरणांचे अनुसरण करा",
+      steps: [
+        {
+          title: "टप्पा 1: बायोचार तयार करा",
+          description: "वापरापूर्वी, बायोचारला पोषक तत्वांनी 'चार्ज' करणे आवश्यक आहे. आपला खाद क्रांती बायोचार कंपोस्ट किंवा शेणखतासोबत 1:1 प्रमाणात मिसळा आणि थोडा ओलसर करा. या मिश्रणाला 24-48 तास ठेवून द्या जेणेकरून बायोचार पोषक तत्वे शोषू शकेल.",
+          image: "/images/usecase/step1.webp",
+          proTip: "प्रो टिप: थेट वापरलेला बायोचार मातीतील नायट्रोजन शोषून घेतो आणि त्यामुळे वनस्पतींसाठी काही काळ नायट्रोजनची उपलब्धता कमी होऊ शकते."
+        },
+        {
+          title: "टप्पा 2: मातीवर वापरा",
+          description: "आपले चार्ज केलेले बायोचार मिश्रण आपल्या लागवडीच्या क्षेत्रावर समान रीतीने पसरवा, दर 1-2 किलो प्रति 10 चौरस मीटर प्रमाणे. विद्यमान झाडांसाठी, ड्रिप लाईनच्या आजूबाजूला लावा, खोड किंवा बुंध्याशी थेट संपर्क टाळा.",
+          image: "/images/usecase/step2.webp"
+        },
+        {
+          title: "टप्पा 3: मिसळा आणि पाणी द्या",
+          description: "बायोचार मिश्रणाला मातीच्या वरच्या 10-15 सेमी मध्ये रेक किंवा कुऱ्हाडीचा वापर करून मिसळा. मिसळल्यानंतर, बायोचार मातीच्या संरचनेत बसवण्यासाठी चांगले पाणी द्या. कुंडीतल्या झाडांसाठी, आपल्या कुंडीच्या मातीमध्ये 10-20% बायोचार मिसळा.",
+          image: "/images/usecase/step3.webp"
+        }
+      ]
+    },
+    tab2: {
       title: "5 चिन्हे की आपल्या मातीला बायोचारची गरज आहे",
       description: "या पाच स्पष्ट चिन्हांद्वारे जाणून घ्या की बायोचार आपल्या मातीच्या आरोग्य आणि वनस्पती वाढीस कसा मदत करतो.",
       signs: [
@@ -136,17 +180,6 @@ const translations = {
         }
       ]
     },
-    tab2: {
-      title: "बायोचार वापरण्याचे फायदे",
-      description: "बायोचार वापरण्याचे असंख्य फायदे जाणून घ्या, ज्यात सुधारित माती सुपीकता आणि कार्बन साठवणूक यांचा समावेश आहे."
-    },
-    step1: "टप्पा 1: बायोचार तयार करा",
-    step1Desc: "वापरापूर्वी, बायोचारला पोषक तत्वांनी 'चार्ज' करणे आवश्यक आहे. आपला खाद क्रांती बायोचार कंपोस्ट किंवा शेणखतासोबत 1:1 प्रमाणात मिसळा आणि थोडा ओलसर करा. या मिश्रणाला 24-48 तास ठेवून द्या जेणेकरून बायोचार पोषक तत्वे शोषू शकेल.",
-    proTip: "प्रो टिप: थेट वापरलेला बायोचार मातीतील नायट्रोजन शोषून घेतो आणि त्यामुळे वनस्पतींसाठी काही काळ नायट्रोजनची उपलब्धता कमी होऊ शकते.",
-    step2: "टप्पा 2: मातीवर वापरा",
-    step2Desc: "आपले चार्ज केलेले बायोचार मिश्रण आपल्या लागवडीच्या क्षेत्रावर समान रीतीने पसरवा, दर 1-2 किलो प्रति 10 चौरस मीटर प्रमाणे. विद्यमान झाडांसाठी, ड्रिप लाईनच्या आजूबाजूला लावा, खोड किंवा बुंध्याशी थेट संपर्क टाळा.",
-    step3: "टप्पा 3: मिसळा आणि पाणी द्या",
-    step3Desc: "बायोचार मिश्रणाला मातीच्या वरच्या 10-15 सेमी मध्ये रेक किंवा कुऱ्हाडीचा वापर करून मिसळा. मिसळल्यानंतर, बायोचार मातीच्या संरचनेत बसवण्यासाठी चांगले पाणी द्या. कुंडीतल्या झाडांसाठी, आपल्या कुंडीच्या मातीमध्ये 10-20% बायोचार मिसळा.",
     expectedResultsTitle: "अपेक्षित परिणाम",
     expectedResultsDesc: "काही आठवड्यांतच जल धारण क्षमतेत सुधारणा दिसून येईल. पोषक तत्वांची कार्यक्षमता पहिल्या वाढीच्या हंगामात सुधारेल, तर पूर्ण माती संरचनेचे फायदे अनेक हंगामांमध्ये विकसित होतील. बायोचार हा दीर्घकालीन माती गुंतवणूक आहे जो वर्षानुवर्षे कार्यरत राहतो.",
     consultationTitle: "वैयक्तिक सल्ल्याची गरज आहे?",
@@ -158,7 +191,6 @@ const translations = {
     getConsultation: "नि:शुल्क सल्ला मिळवा"
   }
 };
-
 
 const HowToUse = () => {
   const [language, setLanguage] = useState('en');
@@ -181,60 +213,21 @@ const HowToUse = () => {
           {t.intro}
         </p>
 
-        <Tabs defaultValue="signs" className="max-w-4xl mx-auto">
+        <Tabs defaultValue="how-to-use" className="max-w-4xl mx-auto">
           <TabsList className="flex w-full overflow-x-auto no-scrollbar mb-8 gap-2 sm:gap-0">
-            <TabsTrigger value="signs" className="min-w-[200px] flex-shrink-0">{t.tab1.title}</TabsTrigger>
-            <TabsTrigger value="apply" className="min-w-[220px] flex-shrink-0">{t.tab2.title}</TabsTrigger>
+            <TabsTrigger value="how-to-use" className="min-w-[200px] flex-shrink-0">{t.tab1.title}</TabsTrigger>
+            <TabsTrigger value="signs" className="min-w-[220px] flex-shrink-0">{t.tab2.title}</TabsTrigger>
           </TabsList>
 
-          <TabsContent value="signs">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-2xl text-biocharGreen flex items-center gap-2">
-                  <AlertCircle className="h-6 w-6" />
-                  {t.tab1.title}
-                </CardTitle>
-                <CardDescription>
-                  {t.tab1.description}
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-6">
-                <img
-                  // src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  src='/images/about/c2.jpg'
-                  alt="Dried, cracked soil indicating poor soil health"
-                  className="w-full h-64 object-cover rounded-lg mb-6"
-                />
-
-                <div className="space-y-6">
-                  {t.tab1.signs.map((sign, index) => (
-                    <section key={index} className="space-y-2">
-                      <h3 className="text-xl font-semibold text-biocharBrown">{sign.title}</h3>
-                      <p>{sign.description}</p>
-                    </section>
-                  ))}
-
-                  <div className="bg-biocharSoftGreen p-6 rounded-lg mt-8">
-                    <h4 className="font-semibold text-biocharGreen mb-2">{t.improveCTA}</h4>
-                    <p>{t.tryNow}</p>
-                    <a href="/#products" className="inline-block mt-4 text-white bg-biocharGreen px-6 py-3 rounded-md font-medium hover:bg-opacity-90 transition-colors">
-                      {t.shopNow}
-                    </a>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </TabsContent>
-
-          <TabsContent value="apply">
+          <TabsContent value="how-to-use">
             <Card>
               <CardHeader>
                 <CardTitle className="text-2xl text-biocharGreen flex items-center gap-2">
                   <BookOpen className="h-6 w-6" />
-                  {t.tab2.title}
+                  {t.tab1.title}
                 </CardTitle>
                 <CardDescription>
-                  {t.tab2.description}
+                  {t.tab1.description}
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -257,28 +250,24 @@ const HowToUse = () => {
                 </div>
 
                 <div className="space-y-6">
-                  <section className="space-y-2">
-                    <h3 className="text-xl font-semibold text-biocharBrown">{t.step1}</h3>
-                    <p>{t.step1Desc}</p>
-                    <div className="bg-amber-50 border-l-4 border-amber-500 p-4 mt-2">
-                      <p className="text-sm text-amber-700">{t.proTip}</p>
-                    </div>
-                  </section>
-
-                  <section className="space-y-2">
-                    <h3 className="text-xl font-semibold text-biocharBrown">{t.step2}</h3>
-                    <p>{t.step2Desc}</p>
-                    <img
-                      src="https://images.unsplash.com/photo-1589928144438-ef48f2993ee7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                      alt="Farmer applying biochar to soil"
-                      className="w-full h-48 object-cover rounded-lg mt-3"
-                    />
-                  </section>
-
-                  <section className="space-y-2">
-                    <h3 className="text-xl font-semibold text-biocharBrown">{t.step3}</h3>
-                    <p>{t.step3Desc}</p>
-                  </section>
+                  {t.tab1.steps.map((step, index) => (
+                    <section key={index} className="space-y-2">
+                      <h3 className="text-xl font-semibold text-biocharBrown">{step.title}</h3>
+                      <p>{step.description}</p>
+                      {step.image && (
+                        <img
+                          src={step.image}
+                          alt={step.title}
+                          className="w-full h-48 object-cover rounded-lg mt-3"
+                        />
+                      )}
+                      {step.proTip && (
+                        <div className="bg-amber-50 border-l-4 border-amber-500 p-4 mt-2">
+                          <p className="text-sm text-amber-700">{step.proTip}</p>
+                        </div>
+                      )}
+                    </section>
+                  ))}
 
                   <div className="bg-biocharSoftGreen p-6 rounded-lg mt-8">
                     <h4 className="font-semibold text-biocharGreen mb-2">{t.expectedResultsTitle}</h4>
@@ -290,6 +279,44 @@ const HowToUse = () => {
                     <p>{t.consultationDesc}</p>
                     <a href="/#farmer-form" className="inline-block mt-4 text-white bg-biocharGreen px-6 py-3 rounded-md font-medium hover:bg-opacity-90 transition-colors">
                       {t.getConsultation}
+                    </a>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </TabsContent>
+
+          <TabsContent value="signs">
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-2xl text-biocharGreen flex items-center gap-2">
+                  <AlertCircle className="h-6 w-6" />
+                  {t.tab2.title}
+                </CardTitle>
+                <CardDescription>
+                  {t.tab2.description}
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-6">
+                <img
+                  src='/images/usecase/benifits.webp'
+                  alt="Dried, cracked soil indicating poor soil health"
+                  className="w-full h-64 object-cover rounded-lg mb-6"
+                />
+
+                <div className="space-y-6">
+                  {t.tab2.signs.map((sign, index) => (
+                    <section key={index} className="space-y-2">
+                      <h3 className="text-xl font-semibold text-biocharBrown">{sign.title}</h3>
+                      <p>{sign.description}</p>
+                    </section>
+                  ))}
+
+                  <div className="bg-biocharSoftGreen p-6 rounded-lg mt-8">
+                    <h4 className="font-semibold text-biocharGreen mb-2">{t.improveCTA}</h4>
+                    <p>{t.tryNow}</p>
+                    <a href="/#products" className="inline-block mt-4 text-white bg-biocharGreen px-6 py-3 rounded-md font-medium hover:bg-opacity-90 transition-colors">
+                      {t.shopNow}
                     </a>
                   </div>
                 </div>
