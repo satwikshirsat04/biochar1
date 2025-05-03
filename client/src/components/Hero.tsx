@@ -72,7 +72,7 @@ const Hero: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4">
             <div className="flex items-center gap-2">
-              <span className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full text-biocharGreen font-bold text-sm md:text-base">
+              <span className="bg-white/25 backdrop-blur-sm px-3 py-1 rounded-full text-biocharGreen font-bold text-sm md:text-base">
                 🌧️ Monsoon Special
               </span>
               <span className="text-biocharGreen font-bold text-sm md:text-base">
@@ -125,7 +125,7 @@ const Hero: React.FC = () => {
                 className="btn-primary flex items-center shadow-lg shadow-biocharGreen/20 transform hover:scale-105 transition-all"
                 onClick={scrollToProducts}
               >
-                Transform Your Soil Today
+                Order Now
                   <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
               
@@ -134,7 +134,7 @@ const Hero: React.FC = () => {
                 className="inline-flex"
               >
                 <Button variant="outline" className="btn-secondary flex items-center transform hover:scale-105 transition-all">
-                  Get Free Soil Guide
+                  Get Free Soil Consultation
                   <Download className="ml-2 h-4 w-4" />
                 </Button>
               </a>
