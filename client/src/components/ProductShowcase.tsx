@@ -2,7 +2,8 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Check, Package, ShoppingCart, Leaf, Lock } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { WaveDivider } from '@/components/ui/WaveDivider';
+import { Link } from 'react-router-dom';
+import { products } from '@/data/product';
 
 const ProductShowcase: React.FC = () => {
     const products = [
@@ -50,7 +51,7 @@ const ProductShowcase: React.FC = () => {
                         {product.popular && (
                             <div className="absolute top-0 right-0 bg-biocharGreen text-white py-1 px-4 text-sm font-semibold">
                                 MOST POPULAR
-                                
+
                             </div>
                         )}
                         <CardHeader>
@@ -86,15 +87,36 @@ const ProductShowcase: React.FC = () => {
                             </ul>
                         </CardContent>
                         <CardFooter>
-                            <a
-                                href="/order" 
+                            {/* <a
+                                href="https://wa.me/+917498238505?text=I'm%20interested%20in%20buying%20your%20Biochar%20product"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="w-full"
                             >
                                 <Button className="btn-primary w-full flex items-center justify-center">
                                     <ShoppingCart className="mr-2 h-5 w-5" />
                                     Buy Now
                                 </Button>
-                            </a>
+                            </a> */}
+                            {/* Replace with your order page link */}
+                            {/* <a
+                                href="/order" // Link to your order page
+                                className="w-full"
+                            >
+                                <Button className="btn-primary w-full flex items-center justify-center">
+                                    <ShoppingCart className="mr-2 h-5 w-5" />
+                                    Buy Now
+                                </Button>
+                            </a> */}
+                            <Link
+                                to={`/order?productId=${product.id}`}
+                                className="w-full"
+                            >
+                                <Button className="btn-primary w-full flex items-center justify-center">
+                                    <ShoppingCart className="mr-2 h-5 w-5" />
+                                    Buy Now
+                                </Button>
+                            </Link>
                         </CardFooter>
                     </Card>
                 ))}
@@ -143,7 +165,7 @@ const ProductShowcase: React.FC = () => {
                     </div>
                 </div>
             </div>
-{/* 
+            {/* 
             <WaveDivider
                 flip
                 color="#155724"
@@ -267,7 +289,7 @@ const ProductShowcase: React.FC = () => {
                     ))}
                 </div>
             </div>
-            
+
         </section>
     );
 };
