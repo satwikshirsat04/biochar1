@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '@/components/Navbar';
+import Footer from '../components/Footer';
+import WhatsAppButton from '../components/WhatsAppButton';
 import {
   Target,
   HeartHandshake,
@@ -20,7 +22,7 @@ const AboutUs: React.FC = () => {
 
   return (
 
-    <div className="relative bg-gradient-to-br from-biocharCream to-white">
+    <div className="relative bg-gradient-to-b from-biocharGreen/20 via-biocharCream/10 to-white">
       <Navbar />
 
 
@@ -201,8 +203,10 @@ const AboutUs: React.FC = () => {
         
         
       </div>
-
+      <Footer />
+      <WhatsAppButton />
     </div>
+    
   );
 };
 
