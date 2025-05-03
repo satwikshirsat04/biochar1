@@ -10,6 +10,7 @@ import Index from "./pages/Index";
 import HowToUse from "./pages/HowToUse";
 import AboutUs from "./pages/AboutUs";
 import NotFound from "./pages/NotFound";
+import Order from "./pages/Order";
 
 const queryClient = new QueryClient();
 
