@@ -1,24 +1,32 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useLocation } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Check, Package } from 'lucide-react';
+import { getProductById } from '@/data/product';
 
 const Order = () => {
-    const product = {
-        id: 2,
-        name: "Biochar Soil Enhancer",
-        size: "5kg",
-        price: "₹999",
-        originalPrice: "₹1499",
-        description: "Ideal for larger farms and agricultural use",
-        image: "/images/products/biochar.jpg",
-        features: [
-            "Treats up to 100 sq meters",
-            "Long-lasting soil health",
-            "Increases crop yield by 40%"
-        ]
-    };
+    // const product = {
+    //     id: 2,
+    //     name: "Biochar Soil Enhancer",
+    //     size: "5kg",
+    //     price: "₹999",
+    //     originalPrice: "₹1499",
+    //     description: "Ideal for larger farms and agricultural use",
+    //     image: "/images/products/biochar.jpg",
+    //     features: [
+    //         "Treats up to 100 sq meters",
+    //         "Long-lasting soil health",
+    //         "Increases crop yield by 40%"
+    //     ]
+    // };
+    const { search } = useLocation();
+    const query = new URLSearchParams(search);
+    const productId = query.get('productId');
+
+     // Get the selected product or default to the first one
+    const product = getProductById(Number(productId)) || getProductById(1)!;
 
     return (
         <div className='relative bg-gradient-to-br from-biocharCream to-white min-h-screen'>
@@ -26,7 +34,9 @@ const Order = () => {
 
             <div className='section-container py-12'>
                 <div className='max-w-6xl mx-auto'>
-                    <h1 className='text-4xl font-bold text-center text-biocharGreen mb-2'>Complete Your Order</h1>
+                    <h1 className='text-4xl font-bold text-center text-biocharGreen mb-2'>
+                    Order {product.name} - {product.size}
+                    </h1>
                     <p className='text-center text-gray-600 mb-12 max-w-2xl mx-auto'>
                         Fill in your details to place your order. We'll contact you for confirmation.
                     </p>
