@@ -165,12 +165,12 @@ const HowToUse = () => {
   const t = translations[language];
 
   return (
-    <div className="relative bg-gradient-to-br from-biocharCream to-white overflow-hidden">
+    <div className="relative bg-gradient-to-b from-biocharGreen/20 via-biocharCream/10 to-white">
       <Navbar />
 
-      <div className="section-container">
+      <div className="section-container mt-0 pt-16 pb-24 px-4 sm:px-6 lg:px-8">
         {/* Language Selector */}
-        <div className="flex items-center justify-center mb-6 gap-2">
+        <div className="flex items-center justify-center mb-6 gap-4">
           <Languages className="h-5 w-5 text-biocharGreen" />
           <button onClick={() => setLanguage('en')} className={`px-3 py-1 rounded ${language === 'en' ? 'bg-biocharGreen text-white' : 'bg-gray-200 text-gray-800'}`}>English</button>
           <button onClick={() => setLanguage('hi')} className={`px-3 py-1 rounded ${language === 'hi' ? 'bg-biocharGreen text-white' : 'bg-gray-200 text-gray-800'}`}>हिंदी</button>
@@ -200,6 +200,7 @@ const HowToUse = () => {
               </CardHeader>
               <CardContent className="space-y-6">
                 <img
+                  // src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
                   src='/images/about/c2.jpg'
                   alt="Dried, cracked soil indicating poor soil health"
                   className="w-full h-64 object-cover rounded-lg mb-6"
