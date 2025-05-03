@@ -48,7 +48,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#products" className="text-gray-300 hover:text-white flex items-center">
+                <a href="/#products" className="text-gray-300 hover:text-white flex items-center">
                   <ArrowRight className="h-4 w-4 mr-2" />
                   Products
                 </a>
@@ -60,19 +60,19 @@ const Footer = () => {
                 </a>
               </li> */}
               <li>
-                <a href="#stories" className="text-gray-300 hover:text-white flex items-center">
+                <a href="/#stories" className="text-gray-300 hover:text-white flex items-center">
                   <ArrowRight className="h-4 w-4 mr-2" />
                   Success Stories
                 </a>
               </li>
               <li>
-                <a href="https://forms.google.com/your-form-link" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white flex items-center">
+                <a href="/#consultation" rel="noopener noreferrer" className="text-gray-300 hover:text-white flex items-center">
                   <ArrowRight className="h-4 w-4 mr-2" />
                   Get Soil Guide
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-white flex items-center">
+                <a href="about-us" className="text-gray-300 hover:text-white flex items-center">
                   <ArrowRight className="h-4 w-4 mr-2" />
                   About Us
                 </a>
