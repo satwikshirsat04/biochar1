@@ -87,9 +87,7 @@ const ProductShowcase: React.FC = () => {
                         </CardContent>
                         <CardFooter>
                             <a
-                                href="https://wa.me/+917498238505?text=I'm%20interested%20in%20buying%20your%20Biochar%20product"
-                                target="_blank"
-                                rel="noopener noreferrer"
+                                href="/order" 
                                 className="w-full"
                             >
                                 <Button className="btn-primary w-full flex items-center justify-center">
