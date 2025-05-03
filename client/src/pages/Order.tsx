@@ -31,7 +31,7 @@ const Order = () => {
     const product = getProductById(Number(productId)) || getProductById(1)!;
 
     return (
-        <div className='relative bg-gradient-to-br from-biocharCream to-white min-h-screen'>
+        <div className='relative bg-gradient-to-b from-biocharGreen/20 via-biocharCream/10 to-white'>
             <Navbar />
 
             <div className='section-container py-12'>
