@@ -12,7 +12,7 @@ import HowToUse from "./pages/HowToUse";
 import AboutUs from "./pages/AboutUs";
 import NotFound from "./pages/NotFound";
 import Order from "./pages/Order";
-import OrderSuccess from "./pages/OrderSuccess";
+// import OrderSuccess from "./pages/OrderSuccess";
 
 
 const queryClient = new QueryClient();
